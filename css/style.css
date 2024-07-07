@@ -82,4 +82,5 @@ main{
 .clicked{
     background-color: rgb(90, 120, 253) ;
     color: white;
+    border: 2px solid white
 }
