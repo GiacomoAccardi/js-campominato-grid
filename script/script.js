@@ -7,3 +7,6 @@
 4. Faccio in modo che ogni quadrato generato sia cliccabile e che succeda qualcosa al click del suddetto
 */
 
+//Recupero gli elementi dal DOM
+const grid = document.getElementById('grid');
+const playButton = document.getElementById('play')
