@@ -1,0 +1,9 @@
+/*
+1. Recuper la griglia dal DOM
+2. creo una funzione che se richiamata crea dei quadrati all'interno della griglia nel DOM
+3. Assegno la funzione a un bottone
+3. creo un ciclo for che cicla la funzione n volte quanto il numero dei quadrati che voglio generare
+    >> ogni quadrato avrà su scritto il numero corrispondente alla sua posizione che sarà indicato con un valore, questo aumenterò di 1 per ogni iterazione del ciclo
+4. Faccio in modo che ogni quadrato generato sia cliccabile e che succeda qualcosa al click del suddetto
+*/
+
