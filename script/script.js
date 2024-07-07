@@ -10,3 +10,13 @@
 //Recupero gli elementi dal DOM
 const grid = document.getElementById('grid');
 const playButton = document.getElementById('play')
+
+//Creo la funzione 
+function generate() {
+     let sCell = document.createElement('div');
+
+     sCell.classList.add('cell');
+
+     return sCell
+}
+
