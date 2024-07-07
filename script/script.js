@@ -34,6 +34,7 @@ playButton.addEventListener('click', function (){
 
         currentCell.addEventListener('click', function(){
             this.classList.toggle('clicked')
+            alert(i + 1)
         })
 
     }
