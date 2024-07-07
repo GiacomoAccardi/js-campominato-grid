@@ -32,9 +32,6 @@ playButton.addEventListener('click', function (){
 
         grid.append(currentCell)
 
-        currentCell.addEventListener('click', function(){
-            console.log('check')
-        })
 
     }
    
