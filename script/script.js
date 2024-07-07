@@ -23,6 +23,7 @@ function generate() {
 //creo un ciclo for che cicla la funzione n volte quanto il numero dei quadrati che voglio generare
 playButton.addEventListener('click', function (){
     
+
     for (let i = 0; i < 100; i++){
 
         let currentCell = generate();
@@ -30,5 +31,12 @@ playButton.addEventListener('click', function (){
         currentCell.innerText = i + 1;
 
         grid.append(currentCell)
+
     }
+
+    sCell.addEventListener('click', function(){
+        console.log('check')
+    })
+
+    
 })
